@@ -1,0 +1,11 @@
+Project Overview: To categorize student performance level based on the Predicted Probalities.
+Dataset includes Variables like student_id, date, attendance_status, age, gender, socio, ethnicity, subject,test,assignment score.
+
+Data Modelling and Evaluation
+Data Exploration and Pre-Processing, The dataset contain two variables(Incident_type and Year) whose data were missing ,more than 75% ,so drop the variable from the modelling. The main purpose is to work on clean data rather and provide recommendation to take decision.
+-Tools:  AutoViz, Power BI
+-Key steps: Understanding and analysing the dataset, handling missing values, encoding, scaling, outlier detection and treatment, anomaly detection, handling duplicates values, feature engineering.
+
+Modelling
+- Algorithm Used: Decision Tree Classifier, Logistic Regression, Random Forest Classifier, SVC, K-Neighbor Classifier,   Gaussian NB
+- Process: Train test split with 80:20 approach, validating with cross fold - validation, smote technique was not required as the dataset was evenly distributed.
